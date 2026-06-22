@@ -19,6 +19,10 @@ The model detects 15 classes:
 | 6 | Speed Limit 20 | 14 | Stop |
 | 7 | Speed Limit 30 | | |
 
+## Why YOLOv8?
+
+YOLOv8 is fast, lightweight, and easy to deploy. It detects objects in a single pass through the image, which makes it suitable for real-time use. The small variant (yolov8s) is only ~22MB, accurate enough for sign detection, and runs without a GPU. It also has a simple training pipeline, which made it a practical choice for this project.
+
 ## Dataset
 
 Trained on the [Traffic Signs Detection dataset](https://www.kaggle.com/datasets/pkdarabi/cardetection) from Kaggle.
@@ -34,7 +38,4 @@ Place `best.pt` in the same folder before running.
 
 ## Training
 
-Trained with YOLOv8s for 50 epochs on Kaggle GPU (T4/P100).
-
-- Input size: 640×640
-- Confidence threshold: 0.25
+Trained with YOLOv8s for 50 epochs on Kaggle GPU (T4/P100). Achived mAP50: 0.9714 and mAP50-95:0.8366 on the test set.
