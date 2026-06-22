@@ -21,7 +21,7 @@ The model detects 15 classes:
 
 ## Dataset
 
-Trained on the [Car Detection dataset](https://www.kaggle.com/datasets/pkdarabi/cardetection) from Kaggle.
+Trained on the [Traffic Signs Detection dataset](https://www.kaggle.com/datasets/pkdarabi/cardetection) from Kaggle.
 
 ## Run locally
 
