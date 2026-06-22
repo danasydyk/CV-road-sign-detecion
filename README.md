@@ -39,3 +39,6 @@ Place `best.pt` in the same folder before running.
 ## Training
 
 Trained with YOLOv8s for 50 epochs on Kaggle GPU (T4/P100). Achived mAP50: 0.9714 and mAP50-95:0.8366 on the test set.
+
+## Video
+video.mp4 is the original video from the kaggle with road signs. video.avi is the video where the model detected the road signs.
