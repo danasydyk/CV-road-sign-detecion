@@ -1,4 +1,4 @@
-# 🚦 Road Sign Detection
+# Road Sign Detection.
 
 Real-time road sign detection using YOLOv8s, trained on a traffic sign dataset from Kaggle.
 
